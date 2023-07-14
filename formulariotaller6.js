@@ -70,17 +70,17 @@ function validarform2(event) {
 
     guardar_localstorage2();
 
-function guardar_localstorage2() {
-    let localdoctores = localStorage.getItem("medicos")
-    if (localdoctores) {
-        medicos = JSON.parse(localdoctores)
-    }
-    medicos.push(doct)
-    localStorage.setItem("medicos", JSON.stringify(medicos))
-    alert("Doctor registrado con exito")
+    function guardar_localstorage2() {
+        let localdoctores = localStorage.getItem("medicos")
+        if (localdoctores) {
+            medicos = JSON.parse(localdoctores)
+        }
+        medicos.push(doct)
+        localStorage.setItem("medicos", JSON.stringify(medicos))
+        alert("Doctor registrado con exito")
 
-    formdoc.reset()
-}
+        formdoc.reset()
+    }
     // ACTUALIZAR LISTA DE DOCTORES 
     mostrardatosd()
 }
@@ -117,21 +117,21 @@ function mostrardatosd() {
         tupla.appendChild(correodoc)
 
     })
-    
-       //convertir el objeto JSON a cadena de texto
-       const jsondres = JSON.stringify(medicos)
-       //crear un blob de la cadena de texto
-       const blob1 = new Blob([jsondres], {type:"application/json"})
-       //crear una URL para el objeto blob
-       const url1 = URL.createObjectURL(blob1)
-       //crear un enlace de descarga
-       const padre2 = document.getElementById("descarga2")
-       const enlaceDescarga = document.createElement("a")
-       enlaceDescarga.href = url1
-       enlaceDescarga.download = "medicos.json"
-       enlaceDescarga.textContent = "Descargar JSON de doctores"
-       padre2.appendChild(enlaceDescarga)
-   }
+
+    //convertir el objeto JSON a cadena de texto
+    const jsondres = JSON.stringify(medicos)
+    //crear un blob de la cadena de texto
+    const blob1 = new Blob([jsondres], { type: "application/json" })
+    //crear una URL para el objeto blob
+    const url1 = URL.createObjectURL(blob1)
+    //crear un enlace de descarga
+    const padre2 = document.getElementById("descarga2")
+    const enlaceDescarga = document.createElement("a")
+    enlaceDescarga.href = url1
+    enlaceDescarga.download = "medicos.json"
+    enlaceDescarga.textContent = "Descargar JSON de doctores"
+    padre2.appendChild(enlaceDescarga)
+}
 
 
 //---------------INFORMACIÓN PACIENTES-------------------------------
@@ -250,10 +250,10 @@ function validateForm(event) {
             // convertir el obejto JSON a cadena
         })
     }
-     //convertir el objeto JSON a cadena de texto
-     const jsonString = JSON.stringify(pacientes)
+    //convertir el objeto JSON a cadena de texto
+    const jsonString = JSON.stringify(pacientes)
     //crear un blob de la cadena de texto
-    const blob = new Blob([jsonString], {type:"application/json"})
+    const blob = new Blob([jsonString], { type: "application/json" })
     //crear una URL para el objeto blob
     const url = URL.createObjectURL(blob)
     //crear un enlace de descarga
