@@ -222,6 +222,7 @@ function validateForm(event) {
         pacientestabla.innerHTML = "<thead><tr><th> Nombre </th><th> Apellido</th><th> Cédula </th><th> Edad </th><th> Número de celular</th><th> Especialidad (paciente) </th><tr></thead>"
 
         pacientes.forEach((patient) => {
+            
             // CREAR TUPLA
             const tupla2 = pacientestabla.insertRow(-1)
             // CREAR LOS CAMPOS 
