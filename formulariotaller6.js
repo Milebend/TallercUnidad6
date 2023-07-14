@@ -80,14 +80,7 @@ function guardar_localstorage2() {
     alert("Doctor registrado con exito")
 
     formdoc.reset()
-
 }
-    // AGREGAR OBJETO A DOCTOR
-    //medicos.push(doct)
-
-    // LIMPIAR FORMULARIO
-    //formdoc.reset()
-
     // ACTUALIZAR LISTA DE DOCTORES 
     mostrardatosd()
 }
@@ -140,8 +133,6 @@ function mostrardatosd() {
        padre2.appendChild(enlaceDescarga)
    }
 
-
-//mostrardatosd()
 
 //---------------INFORMACIÓN PACIENTES-------------------------------
 
@@ -221,12 +212,6 @@ function validateForm(event) {
 
         formpatien.reset()
 
-        // AGREGAR OBJETO A DOCTOR
-        //pacientes.push(patient)
-
-        // LIMPIAR FORMULARIO
-        //formpatien.reset()
-
         // ACTUALIZAR LISTA DE DOCTORES 
         registrarDatos()
     }
@@ -263,7 +248,6 @@ function validateForm(event) {
             tupla2.appendChild(especialp)
 
             // convertir el obejto JSON a cadena
-
         })
     }
      //convertir el objeto JSON a cadena de texto
@@ -281,37 +265,3 @@ function validateForm(event) {
     padre.appendChild(enlaceDescarga)
 }
 
-/*
-
-function obtener_localStorage () {
-  if(localStorage.getItem("datas")) {
-
-    let datas = JSON.parse (localStorage.getItem("datas"));
-
-    console.log (pacientes);
-
-}else {
-    console.log("No hay entradas en el localstorge")
-
-}
-}
-
-//guardar_localstorage();
-
-function guardar_localstorage(){
-
-    localStorage.setItem("datas", JSON.stringify(pacientes));
-
-}
-
-
-let medicos = []
-let localMedicos = localStorage.getItem("medicos")
-if (localMedicos){
-    medicos = JSON.parse(localMedicos)
-}
-medicos.push(patient)
-localStorage.setItem("medicos", JSON.stringify(medicos))
-formularioRegistro.reset()
-alert("Medico registrado con exito")
-}) */

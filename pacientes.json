@@ -1,0 +1,82 @@
+[
+    {
+        "nombrepa": "Dario",
+        "apellidopa": "Gomez",
+        "cedulapa": "123456765",
+        "edad": "23",
+        "celular": "3124253637",
+        "especialidad2": "Medicina interna"
+    },
+    {
+        "nombrepa": "Laura",
+        "apellidopa": "Valderrama",
+        "cedulapa": "9876543456",
+        "edad": "89",
+        "celular": "31235678765",
+        "especialidad2": "Rehabilitación física"
+    },
+    {
+        "nombrepa": "Paola",
+        "apellidopa": "Gomez",
+        "cedulapa": "3452627211",
+        "edad": "32",
+        "celular": "32135687654",
+        "especialidad2": "Odontología"
+    },
+    {
+        "nombrepa": "Juan",
+        "apellidopa": "Alvarez",
+        "cedulapa": "456787654",
+        "edad": "21",
+        "celular": "31234561389",
+        "especialidad2": "Psicología"
+    },
+    {
+        "nombrepa": "Pablo",
+        "apellidopa": "Jimenez",
+        "cedulapa": "32523909",
+        "edad": "34",
+        "celular": "54678909",
+        "especialidad2": "Cardiología"
+    },
+    {
+        "nombrepa": "Luis",
+        "apellidopa": "Diaz",
+        "cedulapa": "3758592190",
+        "edad": "28",
+        "celular": "3246790864",
+        "especialidad2": "Medicina interna"
+    },
+    {
+        "nombrepa": "Dora",
+        "apellidopa": "Duran",
+        "cedulapa": "8765432",
+        "edad": "76",
+        "celular": "3241157809",
+        "especialidad2": "Cardiología"
+    },
+    {
+        "nombrepa": "Gloria",
+        "apellidopa": "Gaitan",
+        "cedulapa": "4567832",
+        "edad": "56",
+        "celular": "32145234563",
+        "especialidad2": "Medicina interna"
+    },
+    {
+        "nombrepa": "Gilberto",
+        "apellidopa": "Guzman",
+        "cedulapa": "12356987",
+        "edad": "99",
+        "celular": "3249007643",
+        "especialidad2": "Odontología"
+    },
+    {
+        "nombrepa": "Fernanda",
+        "apellidopa": "Romero",
+        "cedulapa": "97658213",
+        "edad": "45",
+        "celular": "6557890",
+        "especialidad2": "Rehabilitación física"
+    }
+]

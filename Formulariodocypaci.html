@@ -8,58 +8,67 @@
 
     <link rel="stylesheet" href="./css/formulario.css" type="text/css" />
 
-
-    <header> <em>Diana Milena Bermúdez Vallejo </em></header>
+    <header>
+        <div id="cabecera">
+            <h3>Diana Milena Bermúdez Vallejo </h3>
+            <h4> Taller calificable del módulo seis </h4>
+        </div>
+    </header>
 
 </head>
+
+<br>
+<br>
+
+<body id=caja></body>
+
 <h1> F O R M U L A R I O - D O C T O R E S </h1>
 
-<body id=caja>
-    <form id="formulariodoc" class="formulario">
-        <label for="name1">Ingrese su nombre: </label>
-        <input type="text" name="name1" id="name1" required="true" />
-        <br>
-        <br>
-        <label for="lastnamed">Ingrese su apellido: </label>
-        <input type="text" name="lastnamed" id="lastnamed" required="true" />
-        <br>
-        <br>
-        <label for="cd1">Ingrese su número de cédula: </label>
-        <input type="text" name="cd1" id="cd1" />
-        <br>
-        <br>
-        <label for="especiald"> Elija la especialidad: </label>
-        <select name="especiald" id="especiald">
-            <option value="Medicina general"> Medicina general </option>
-            <option value="Cardiología"> Cardiología </option>
-            <option value="Medicina interna"> Medicina interna </option>
-            <option value="Dermatología"> Dermatología </option>
-            <option value="Rehabilitación física"> Rehabilitación física</option>
-            <option value="Psicología"> Psicología </option>
-            <option value="Odontología"> Odontología </option>
-            <option value="Radiología"> Radiología </option>
-        </select>
+<form id="formulariodoc" class="formulario">
+    <label for="name1">Ingrese su nombre: </label>
+    <input type="text" name="name1" id="name1" required="true" />
+    <br>
+    <br>
+    <label for="lastnamed">Ingrese su apellido: </label>
+    <input type="text" name="lastnamed" id="lastnamed" required="true" />
+    <br>
+    <br>
+    <label for="cd1">Ingrese su número de cédula: </label>
+    <input type="text" name="cd1" id="cd1" />
+    <br>
+    <br>
+    <label for="especiald"> Elija la especialidad: </label>
+    <select name="especiald" id="especiald">
+        <option value="Medicina general"> Medicina general </option>
+        <option value="Cardiología"> Cardiología </option>
+        <option value="Medicina interna"> Medicina interna </option>
+        <option value="Dermatología"> Dermatología </option>
+        <option value="Rehabilitación física"> Rehabilitación física</option>
+        <option value="Psicología"> Psicología </option>
+        <option value="Odontología"> Odontología </option>
+        <option value="Radiología"> Radiología </option>
+    </select>
 
-        <br>
-        <br>
-        <label for="consul">Ingrese el consultorio: </label>
-        <input type="text" name="consul" id="consul" />
-        <br>
-        <br>
-        <label for="email">Ingrese su correo de contacto: </label>
-        <input type="email" name="email" id="email" autocomplete="off" />
-        <br>
-        <br>
+    <br>
+    <br>
+    <label for="consul">Ingrese el consultorio: </label>
+    <input type="text" name="consul" id="consul" />
+    <br>
+    <br>
+    <label for="email">Ingrese su correo de contacto: </label>
+    <input type="email" name="email" id="email" autocomplete="off" />
 
-        <br>
-        <br>
+    <br>
+    <br>
+    <br>
+    <input type="submit" value="Enviar" id="boton1">
 
-        <input type="submit" value="Enviar" id="boton1">
-
-    </form>
-
-    <h2> LISTA DE DOCTORES</h2>
     <table id="tabladoctor" name="tabladoctor">
+        <br>
+        <br>
+
+        <h2> LISTA DE DOCTORES</h2>
+
         <thead>
             <tr>
                 <th> Nombre </th>
@@ -72,75 +81,71 @@
         </thead>
         <tbody> </tbody>
     </table>
-    <div id="descarga2"> </div>
+</form>
 
+<div id="descarga2"> </div>
+<br>
+<br>
+<form class="formulariopac" id="formulariopac">
 
-    <form class="formulariopac" id="formulariopac">
+    <h1> F O R M U L A R I O - P A C I E N T E S </h1>
 
-        <h1> F O R M U L A R I O - P A C I E N T E S </h1>
+    <label for="name">Ingrese su nombre: </label>
+    <input type="text" name="name" id="name" autocomplete="off" />
+    <br>
+    <br>
+    <label for="lastnamep">Ingrese su apellido: </label>
+    <input type="text" name="lastnamep" id="lastnamep" />
+    <br>
+    <br>
+    <label for="cd">Ingrese su número de cédula: </label>
+    <input type="text" name="cedula" id="cd" />
+    <br>
+    <br>
+    <label for="age">Ingrese su edad: </label>
+    <input type="text" name="age" id="age" />
+    <br>
+    <br>
+    <label for="phone">Ingrese su número fijo o celular: </label>
+    <input type="text" name="phone" id="phone" autocomplete="off" />
+    <br>
+    <br>
 
-        <label for="name">Ingrese su nombre: </label>
-        <input type="text" name="name" id="name" autocomplete="off" />
-        <br>
-        <br>
-        <label for="lastnamep">Ingrese su apellido: </label>
-        <input type="text" name="lastnamep" id="lastnamep" />
-        <br>
-        <br>
-        <label for="cd">Ingrese su número de cédula: </label>
-        <input type="text" name="cedula" id="cd" />
-        <br>
-        <br>
-        <label for="age">Ingrese su edad: </label>
-        <input type="text" name="age" id="age" />
-        <br>
-        <br>
-        <label for="phone">Ingrese su número fijo o celular: </label>
-        <input type="text" name="phone" id="phone" autocomplete="off" />
-        <br>
-        <br>
-
-        <label for="especialpa"> Elija la especialidad que desea: </label>
-        <select name="especialpa" id="especialpa">
-            <option value="Medicina general"> Medicina general </option>
-            <option value="Cardiología"> Cardiología </option>
-            <option value="Medicina interna"> Medicina interna </option>
-            <option value="Dermatología"> Dermatología </option>
-            <option value="Rehabilitación física"> Rehabilitación física</option>
-            <option value="Psicología"> Psicología </option>
-            <option value="Odontología"> Odontología </option>
-            <option value="Radiología"> Radiología </option>
-        </select>
-        <br>
-        <br>
-        <input type="submit" value="Enviar" id="boton" />
-
-
-        <h2> LISTA DE LOS PACIENTES </h2>
-        <table id="tabladepaciente" name="tabladepaciente">
-            <thead>
-                <tr>
-                    <th> Nombre </th>
-                    <th> Apellido</th>
-                    <th> Cédula </th>
-                    <th> Edad </th>
-                    <th> Número de celular</th>
-                    <th> Especialidad (paciente) </th>
-                <tr>
-            </thead>
-            <tbody> </tbody>
-        </table>
-    </form>
-    <div id="descarga"> </div>
+    <label for="especialpa"> Elija la especialidad que desea: </label>
+    <select name="especialpa" id="especialpa">
+        <option value="Medicina general"> Medicina general </option>
+        <option value="Cardiología"> Cardiología </option>
+        <option value="Medicina interna"> Medicina interna </option>
+        <option value="Dermatología"> Dermatología </option>
+        <option value="Rehabilitación física"> Rehabilitación física</option>
+        <option value="Psicología"> Psicología </option>
+        <option value="Odontología"> Odontología </option>
+        <option value="Radiología"> Radiología </option>
+    </select>
+    <br>
+    <br>
+    <br>
+    <input type="submit" value="Enviar" id="boton" />
+    <br>
+    <br>
+    <h2> LISTA DE LOS PACIENTES </h2>
+    <table id="tabladepaciente" name="tabladepaciente">
+        <thead>
+            <tr>
+                <th> Nombre </th>
+                <th> Apellido</th>
+                <th> Cédula </th>
+                <th> Edad </th>
+                <th> Número de celular</th>
+                <th> Especialidad (paciente) </th>
+            <tr>
+        </thead>
+        <tbody> </tbody>
+    </table>
+</form>
+<div id="descarga"> </div>
 </body>
 
-<script src="./formulario.js"></script>
-
-<footer>
-    <p>Taller del módulo 6</p>
-    <p> Curso básico de Back End</p>
-
-
-</footer>
+<script src="./formulariotaller6.js"></script>
 
 </html>

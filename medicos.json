@@ -1,0 +1,66 @@
+[
+    {
+        "nombre": "Diana",
+        "apellido": "Bermudez",
+        "cedula": "123456789",
+        "especialidad": "Medicina interna",
+        "consultorio": "123",
+        "correodoctor": "diana@hotmail.com"
+    },
+    {
+        "nombre": "Felipe",
+        "apellido": "Yaya",
+        "cedula": "546789043",
+        "especialidad": "Odontología",
+        "consultorio": "302A",
+        "correodoctor": "felipeyaya@hotmail.com"
+    },
+    {
+        "nombre": "Alberto",
+        "apellido": "Camacho",
+        "cedula": "43567890",
+        "especialidad": "Radiología",
+        "consultorio": "301A",
+        "correodoctor": "albertocamacho@gmail.com"
+    },
+    {
+        "nombre": "Felipe",
+        "apellido": "Diaz",
+        "cedula": "45678978",
+        "especialidad": "Rehabilitación física",
+        "consultorio": "304A",
+        "correodoctor": "felipediaz@hotmail.com"
+    },
+    {
+        "nombre": "Yuliana",
+        "apellido": "Jimenez",
+        "cedula": "54326789",
+        "especialidad": "Cardiología",
+        "consultorio": "345",
+        "correodoctor": "Yulijo@gmail.com"
+    },
+    {
+        "nombre": "Rosa",
+        "apellido": "Rosales",
+        "cedula": "567853257",
+        "especialidad": "Medicina interna",
+        "consultorio": "321",
+        "correodoctor": "rrosales@udistrital.com"
+    },
+    {
+        "nombre": "Tatiana",
+        "apellido": "Ruiz",
+        "cedula": "9864758",
+        "especialidad": "Medicina interna",
+        "consultorio": "456",
+        "correodoctor": "tatiruiz@gmail.com"
+    },
+    {
+        "nombre": "Eugenia",
+        "apellido": "Hernandez",
+        "cedula": "34567213",
+        "especialidad": "Rehabilitación física",
+        "consultorio": "201",
+        "correodoctor": "ehernandez@gmail.com"
+    }
+]
